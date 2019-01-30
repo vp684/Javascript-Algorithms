@@ -6,7 +6,7 @@ function rot13(str) { // LBH QVQ VG!
 
   for(let i = 0; i < str.length; i++){
      
-     if(str[i].search(rgx) === -1){ // non alphabet so pass
+     if(str[i].search(rgx) === -1){ // non alphabet
         decoded += str[i];
      }
      else{//must be a  letter
